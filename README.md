@@ -1,5 +1,7 @@
 # chat-for-websocket-study
 
+[![CI](https://github.com/t-chov/chat-for-websocket-study/actions/workflows/ci.yml/badge.svg)](https://github.com/t-chov/chat-for-websocket-study/actions/workflows/ci.yml)
+
 WebSocket を用いたチャットルームを Go で実装した学習用リポジトリです。`cmd/server` でチャットルーム（WebSocket サーバー）を、`cmd/client` で CLI クライアントを提供し、双方が `internal/chat` にある共通ロジック（トークン生成、チェックサム検証、メッセージのファンアウトなど）を共有します。
 
 ## 特徴
